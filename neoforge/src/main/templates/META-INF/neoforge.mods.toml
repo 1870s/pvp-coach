@@ -1,0 +1,30 @@
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="1870s"
+description='''
+Your personal PvP trainer. PvP Coach watches your fights, finds your mistakes (weak hits, missed sprint resets,
+slow totem refills, eating under pressure...) and gives you a score and concrete tips after every fight. Press K.
+'''
+# Client-only mod: the server does not need it and its version is never checked.
+displayTest="IGNORE_ALL_VERSION"
+
+[[mixins]]
+config="pvpcoach.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="${neoforge_range}"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_range}"
+    ordering="NONE"
+    side="CLIENT"

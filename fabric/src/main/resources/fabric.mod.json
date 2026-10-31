@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpcoach",
+  "version": "${version}",
+  "name": "PvP Coach",
+  "description": "Your personal PvP trainer. PvP Coach watches your fights, finds your mistakes (weak hits, missed sprint resets, slow totem refills, eating under pressure...) and gives you a score and concrete tips after every fight. Press K.",
+  "authors": ["1870s"],
+  "contact": {
+    "sources": "https://github.com/1870s/pvp-coach"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.pvpcoach.fabric.PvpCoachFabric"]
+  },
+  "mixins": ["pvpcoach.mixins.json"],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "minecraft": "${minecraft_dependency}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
