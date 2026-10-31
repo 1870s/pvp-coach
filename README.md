@@ -14,6 +14,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/1870s/pvp-coach/releases/latest"><b>⬇ Download</b></a>
+</p>
+
+<p align="center">
   <img src="docs/images/report.png" alt="The fight report: score, stats and coach tips">
 </p>
 
@@ -88,7 +92,8 @@ Your last 100 fights are stored in `config/pvpcoach/history.json`.
 
 1. Install [Fabric](https://fabricmc.net/use/) (with [Fabric API](https://modrinth.com/mod/fabric-api)) or
    [NeoForge](https://neoforged.net/) for your Minecraft version.
-2. Pick the jar for your loader and version and put it into your `mods` folder:
+2. Download the jar for your loader and version from the
+   [latest release](https://github.com/1870s/pvp-coach/releases/latest) and put it into your `mods` folder:
 
    | Minecraft | Fabric | NeoForge |
    |---|---|---|
